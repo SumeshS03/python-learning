@@ -34,3 +34,8 @@ city_name = "St. Potatosburg"
 
 # this variable describe the city population: 
 city_pop = 340000
+
+cucumbers =5
+price_per_cucumber=3.25
+total_cost=5*3.25
+print total_cost
