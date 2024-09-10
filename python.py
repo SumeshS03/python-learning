@@ -52,3 +52,10 @@ haiku="""The old pond,
 A frog jumps in:
 Plop!"""
 print haiku
+
+float_1 = 0.25
+float_2 = 40.0
+product = float_1 * float_2
+x=product
+big_string = " The product was " + str(x)
+print big_string
