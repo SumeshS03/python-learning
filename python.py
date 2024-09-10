@@ -4,3 +4,7 @@ print greeting_message
 print todays_date
 
 
+product = 3*7
+print product
+remainder =1398%11
+print remainder
