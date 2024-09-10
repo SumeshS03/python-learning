@@ -75,3 +75,7 @@ print ministry.upper()
 
 the_machine_goes = "Ping!"
 print the_machine_goes
+
+my_string = "my name is sumesh"
+print len(my_string)
+print my_string.upper()
