@@ -115,3 +115,31 @@ print now.hour
 print now.minute
 print now.second
 print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
+
+def greater_less_equal_5(answer):
+    if answer > 5:
+        return 1
+    elif answer < 5:          
+        return -1
+    else:
+        return 0
+        
+print greater_less_equal_5(4)
+print greater_less_equal_5(5)
+print greater_less_equal_5(6)
+
+
+def grade_converter(grade):
+    if grade >= 90:
+        return "A"
+    elif grade >= 80:
+        return "B"
+    elif grade >= 70:
+        return "C"
+    elif grade >= 65:
+        return "D"
+    else:
+        return "F"
+    print grade_converter(92)
+    print grade_converter(70)
+    print grade_converter(61)
