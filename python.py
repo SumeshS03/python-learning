@@ -143,3 +143,54 @@ def grade_converter(grade):
     print grade_converter(92)
     print grade_converter(70)
     print grade_converter(61)
+
+original = raw_input("Enter a word:")
+if len(original) > 0:
+  print original
+else:
+  print "empty"
+  
+original = raw_input("Enter a word:")
+if len(original) > 0 and original.isalpha():
+  print original
+else:
+  print "empty"
+
+
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+word = original.lower()
+first = word[0]
+if len(original) > 0 and original.isalpha():
+    print original
+else:
+    print 'empty'
+    
+    
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+word = original.lower()
+first = word[0]
+new_word = word + first + pyg
+if len(original) > 0 and original.isalpha():
+    print original
+else:
+    print 'empty'
+print new_word
+
+
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+  print original
+  word = original.lower()
+  first = word[0]
+  new_word = word + first + pyg
+  new_word = new_word[1:len(new_word)]
+  print new_word
+else:
+    print 'empty' 
