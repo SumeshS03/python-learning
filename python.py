@@ -79,3 +79,9 @@ print the_machine_goes
 my_string = "my name is sumesh"
 print len(my_string)
 print my_string.upper()
+
+from datetime import datetime
+print datetime.now()
+now = datetime.now()
+print now
+
