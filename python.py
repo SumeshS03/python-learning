@@ -352,3 +352,34 @@ inventory['pocket'] = ['seashell', 'strange berry', 'lint']
 inventory['backpack'].sort()
 inventory['backpack'].remove('dagger')
 inventory['gold'] = inventory['gold'] + 50
+
+
+names = ["Adam","Alex","Mariah","Martine","Columbus"]
+
+for name in names:
+    print(name)
+    
+webster = {
+  "Aardvark" : "A star of a popular children's cartoon show.",
+  "Baa" : "The sound a goat makes.",
+  "Carpet": "Goes on the floor.",
+  "Dab": "A small amount."
+}
+
+for word in webster:
+  print webster[word]
+  
+a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+for number in a:
+  if number % 2 == 0:
+    print number
+    
+    
+def fizz_count(x):
+  count = 0
+  for item in x:
+    if item == "fizz":
+      count = count + 1
+  return count
+print fizz_count(["fizz","cat","fizz"])
