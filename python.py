@@ -284,3 +284,71 @@ def trip_cost(city, days, spending_money):
   return rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city) + spending_money
 
 print trip_cost("Los Angeles", 5, 600)
+
+numbers = [5, 6, 7, 8]
+
+print "Adding the numbers at indices 0 and 2..."
+print numbers[0] + numbers[2]
+print "Adding the numbers at indices 1 and 3..."
+print numbers[1] + numbers[3]
+
+zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
+zoo_animals[2] = "hyena"
+zoo_animals[3] = "lion"
+
+suitcase = [] 
+suitcase.append("sunglasses")
+suitcase.append("sumesh")
+suitcase.append("logesh")
+suitcase.append("harish")
+list_length = len(suitcase)
+print "There are %d items in the suitcase." % (list_length)
+print suitcase
+
+start_list = [5, 3, 1, 2, 4]
+square_list = []
+for number in start_list:
+  square_list.append(number ** 2)
+square_list.sort()
+print square_list
+
+menu = {} 
+menu['Chicken Alfredo'] = 14.50 pair
+print menu['Chicken Alfredo']
+menu['Spam'] = 2.50
+menu['food'] = 4.90
+menu['rice'] = 4.90
+print "There are " + str(len(menu)) + " items on the menu."
+print menu
+
+zoo_animals = { 'Unicorn' : 'Cotton Candy House',
+'Sloth' : 'Rainforest Exhibit',
+'Bengal Tiger' : 'Jungle House',
+'Atlantic Puffin' : 'Arctic Exhibit',
+'Rockhopper Penguin' : 'Arctic Exhibit'}
+
+del zoo_animals['Unicorn']
+
+# Your code here!
+del zoo_animals['Sloth']
+del zoo_animals['Bengal Tiger']
+zoo_animals['Rockhopper Penguin'] = 'Plains Exhibit'
+
+print zoo_animals
+
+backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
+backpack.remove('dagger')
+
+inventory = {
+  'gold' : 500,
+  'pouch' : ['flint', 'twine', 'gemstone'], 
+  'backpack' : ['xylophone','dagger', 'bedroll','bread loaf']
+}
+
+inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth']
+
+inventory['pouch'].sort() 
+inventory['pocket'] = ['seashell', 'strange berry', 'lint']
+inventory['backpack'].sort()
+inventory['backpack'].remove('dagger')
+inventory['gold'] = inventory['gold'] + 50
