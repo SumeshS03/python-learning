@@ -396,3 +396,10 @@ for letter in word:
  
   if letter == "i":
     print letter
+    
+prices = {
+  "banana": 4,
+  "apple": 2,
+  "orange": 1.5,
+  "pear": 3
+}
