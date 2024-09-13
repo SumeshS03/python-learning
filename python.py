@@ -383,3 +383,16 @@ def fizz_count(x):
       count = count + 1
   return count
 print fizz_count(["fizz","cat","fizz"])
+
+
+for letter in "Codecademy":
+  print letter
+print
+print
+
+word = "Programming is fun!"
+
+for letter in word:
+ 
+  if letter == "i":
+    print letter
