@@ -587,3 +587,11 @@ def count(sequence, item):
     return count
   
 print count([1, 2, 1, 1], 1)
+
+ef product(list):
+  total = 1
+  for num in list:
+    total = total * num
+  return total
+
+print product([4, 5, 5])
