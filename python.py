@@ -602,3 +602,12 @@ my_dict = {
     "city": "New York"
 }
 print(my_dict.items())
+
+my_dict = {
+  'name': 'Nick',
+  'age':  31,
+  'occupation': 'Dentist',
+}
+
+print my_dict.keys()
+print my_dict.values()
