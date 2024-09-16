@@ -539,3 +539,11 @@ while guesses_left > 0:
   guesses_left -= 1
 else:
   print "You lose."
+
+phrase = "A bird in the hand..."
+for char in phrase:
+  if char == "A" or char == 'a':
+    print 'X',
+  else:
+    print char,
+print
