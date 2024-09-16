@@ -611,3 +611,6 @@ my_dict = {
 
 print my_dict.keys()
 print my_dict.values()
+
+languages = ["HTML", "JavaScript", "Python", "Ruby"]
+print filter(lambda x: x == "Python", languages)
