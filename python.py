@@ -659,3 +659,7 @@ class Triangle(object):
       return True
     else:
       return False
+  my_triangle = Triangle(30, 60, 90)
+
+print my_triangle.number_of_sides
+print my_triangle.check_angles()
