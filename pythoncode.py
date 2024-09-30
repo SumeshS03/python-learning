@@ -217,3 +217,45 @@ if(avg<35):
 else:
    print("you are good to go")
 
+#two table using for loop
+i=2
+for j in range (1,11):
+   print(f"{i} * {j} = {i*j}")
+
+#between two number using for loop
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+for i in range(a+1,b):
+   print(i)
+
+#even number between 1 to 10
+for i in range(1,11):
+   if(i%2==0):
+      print(i)
+      
+#odd number between 1 to 10
+count = 0
+for i in range(1,11):
+   if(i%2 != 0):
+      print(i)
+      count =count + 1
+print("the number of odd number count:",count)
+   
+#count number div by 3 and 5 and both range 1-100
+three_count = 0
+five_count = 0
+count=0
+for i in range(1,101):
+   if(i%3==0 and i%5==0):
+      print(i)
+      count = count + 1
+   elif(i%3 == 0):
+      print(i)
+      three_count =three_count + 1
+   elif(i%5 == 0):
+      print(i)
+      five_count =five_count + 1
+  
+print("the number div by three:",three_count)
+print("the number div by five:",five_count)
+print("the number div by both:",count)
