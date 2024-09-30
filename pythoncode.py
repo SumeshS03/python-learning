@@ -17,3 +17,30 @@ x = 10
 y = "string"
 print(type(x))
 print(type(y))
+
+#assign multiple values to different variables
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+#assign multiple values to same variable
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+#collection of values
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+#multiple values output separated by comma
+x = maths
+y = is my
+z = fav subject
+print(x, y, z)
+#multiple values output separated by + operator
+x = maths
+y = is my
+z = fav subject
+print(x + y + z)
