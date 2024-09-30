@@ -71,3 +71,51 @@ def myfunc():
 
 myfunc()
    print("maths is a" + x)
+   
+   
+#casting
+x = int("10")
+y = int("20")
+z = x+y
+print(z)
+
+
+#input from user
+x=int(input())
+y=int(input())
+z=x+y
+print(z)
+
+#first program
+x=str(input())
+y=int(input())
+print("My name is:",x)
+print("My age is:",y)
+
+#second program
+x=str(input())
+y=int(input())
+z=str(input())
+print("My name is:",x)
+print("My age is:",y)
+print("My address:",z)
+
+#third program
+x=int(input())
+y=int(input())
+z=int(input())
+a=x*y*z
+b=x+y+z
+c=a/b
+print(a)
+print(b)
+print(c)
+
+#fourth program
+name=str(input())
+score=int(input())
+department=str(input())
+a=score/10
+print("My name is",name)
+print("My score is",a,"/10")
+print("My department is",depart)
