@@ -44,3 +44,30 @@ x = maths
 y = is my
 z = fav subject
 print(x + y + z)
+
+#variable outside 
+x = "subject"
+
+def myfunc():
+   print("maths is a" + x)
+
+myfunc()
+#variable inside
+x = "subject"
+
+def myfunc():
+   x = "good"
+   print("maths is a" + x)
+
+myfunc()
+   print("maths is a" + x)
+#global variable
+x = "subject"
+
+def myfunc():
+   global x
+   x = "good"
+   print("maths is a" + x)
+
+myfunc()
+   print("maths is a" + x)
