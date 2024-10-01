@@ -323,3 +323,50 @@ while(i>0):
    i = i-1
 print(fact)
       
+#fuctions add,sub,mul,div
+def add(a,b):
+   print(a+b)
+def sub(a,b):
+   if(b>a):
+      print(b-a)
+   else:
+      print(a-b)
+def mul(a,b):
+   print(a*b)
+def div(a,b):
+   print(int(a/b))
+a=10
+b=20
+add(a,b)
+sub(a,b)
+mul(a,b)
+div(a,b)
+
+#input from user and passit to fuction find even or odd
+def findevenorodd(a):
+   if(a%2==0):
+      print("enter number is even")
+   else:
+      print("enter number is odd")
+a=int(input("enter the number:"))
+findevenorodd(a)
+
+#input from user find pass or fail
+def findevenorodd(a):
+   if(a>=35 and a<=100):
+      print("you are pass")
+   elif(a<35):
+      print("you are fail")
+   elif(a>100):
+      print("invalid mark")
+a=int(input("enter the mark:"))
+findevenorodd(a)
+
+#input from user print the range
+def printrange(a,b):
+   for i in range(a,b):
+      print(i)
+a=int(input("enter the a:"))
+b=int(input("enter the b:"))
+printrange(a,b)
+
