@@ -370,3 +370,27 @@ a=int(input("enter the a:"))
 b=int(input("enter the b:"))
 printrange(a,b)
 
+#input from user check username password
+def validate(s_username,s_password,name,code):
+   if(s_username==name and s_password==code):
+      return True
+   else:
+      return False
+   
+s_username="sumesh"
+s_password=123
+name=str(input("enter the username:"))
+code=int(input("enter the password:"))
+print(validate(s_username,s_password,name,code))
+
+#input from user a+b*c
+def add():
+   return (a+b)*c
+   
+a=int(input("enter the a value:"))
+b=int(input("enter the b value:"))
+c=int(input("enter the c value:"))
+d=add()
+added=add()
+print(added)
+print(d)
