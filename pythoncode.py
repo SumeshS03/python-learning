@@ -289,4 +289,37 @@ print("sum of natural number:",b)
 a=int(input("enter the number:"))
 for i in range(a):
    print(f"cube of number {i+1} : {(i+1)**3}")
+
+#pattern printing
+for i in range(5):
+   print()
+   for j in range(1,i+1):
+      print(j,end ="")
    
+      
+#while loop to print 1-5
+i=1
+while(i<=5):
+   print(i)
+   i = i+1
+   
+#while loop to print 10.20.30...200
+i=10
+while(i<=200):
+   print(i,end =",")
+   i = i+10
+      
+#while loop reverse order of 10 
+i=10
+while(i>= 1):  
+    print(i,end =",")
+    i=i-1
+
+#while loop factorial of number 
+i=int(input("enter the number:"))
+fact = 1
+while(i>0):
+   fact = fact*i
+   i = i-1
+print(fact)
+      
