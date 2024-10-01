@@ -259,3 +259,34 @@ for i in range(1,101):
 print("the number div by three:",three_count)
 print("the number div by five:",five_count)
 print("the number div by both:",count)
+
+#sum of first 5 natural numbers
+sum = 0
+for i in range(1,6):
+   sum = sum + i
+print(sum)
+   
+#10 input from user and add and average
+a=[]
+c=0
+for i in range(10):
+   b=int(input("enter the number:"))
+   a.append(b)
+   c = c+b
+print(a)  
+print("sum of ten numbers:",c)
+print("average",int(c/10))
+
+#print natural number and their sum
+a=int(input("enter the number:"))
+b=0
+for i in range(a):
+   print(i+1)
+   b = b + i+1
+print("sum of natural number:",b)
+
+#cube upto enter number
+a=int(input("enter the number:"))
+for i in range(a):
+   print(f"cube of number {i+1} : {(i+1)**3}")
+   
