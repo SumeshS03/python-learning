@@ -394,3 +394,87 @@ d=add()
 added=add()
 print(added)
 print(d)
+
+#class and objects
+class laptop:
+   price=""
+   processor=""
+   ram=""
+hp = laptop()
+dell = laptop()
+lenovo = laptop()
+hp.price = 40000
+hp.processor= "core i3"
+hp.ram = "8GB"
+dell.price = 50000
+dell.processor = "core i5"
+dell.ram = "12GB"
+lenovo.price = 60000
+lenovo.processor = "core i7"
+lenovo.ram = "16GB"
+print("hp laptop price:",hp.price)
+print("hp processor:",hp.processor)
+print("hp ram:",hp.ram)
+print("lenovo laptop price:",lenovo.price)
+print("lenovo processor:",lenovo.processor)
+print("lenovo ram:",lenovo.ram)
+print("dell laptop price:",dell.price)
+print("dell processor:",dell.processor)
+print("dell ram:",dell.ram)
+
+#class and objects using constructor
+class student:
+   def __init__(self):
+      name=""
+      reg_num=""
+   def display(self):
+      print("student name:",self.name)
+      print("student reg no:",self.reg_num)
+      
+school= student()
+school.name = "sumesh"
+school.reg_num = 1546
+school.display()
+
+#class and objects using constructor
+class teacher:
+   def __init__(self):
+      name=""
+      register=""
+   def display(self):
+      print("name of the teacher:",self.name)
+      print("register no of the teacher:",self.register)
+
+t1=teacher()
+t2=teacher()
+t1.name="jeni"
+t1.register=231
+t2.name="janu"
+t2.register=432
+t1.display()
+t2.display()
+
+#class and objects using constructor
+class calculator:
+   def __init__(self,a,b):
+      self.a=a
+      self.b=b
+   def add(self):
+      print("added number:",self.a+self.b)
+   def sub(self):
+      if(self.b>self.a):
+         print("subracted number:",self.b-self.a)
+      else:
+         print("subracted number:",self.a-self.b)
+   def mul(self):
+      print("multiplied value:",self.a*self.b)
+   def div(self):
+      if(self.a==0 or self.b==0):
+         print("invalid")
+      else:
+         print("divided value is:",self.a/self.b)
+c=calculator(2,3)
+c.add()
+c.sub()
+c.mul()
+c.div()
