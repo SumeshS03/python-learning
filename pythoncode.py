@@ -478,3 +478,79 @@ c.add()
 c.sub()
 c.mul()
 c.div()
+
+#polymorphism function overwrite
+class animal:
+    def sound(self):
+        print("Animal makes a sound")
+
+class dog(animal):
+    def sound(self):
+        print("Dog barks")
+
+class bird(animal):
+    def sound(self):
+        print("Birds sing")
+
+c=animal()
+c1=dog()
+c2=bird()
+c.sound()
+c1.sound()
+c2.sound()
+
+
+#polimorphism rectangle problem
+class shape:
+   def area(self):
+      return 
+class rectangle(shape):
+   def area(self):
+      l=10
+      b=20
+      print(l*b)
+a1=rectangle()
+a1.area()
+   
+#polimorphism and superkeyword
+class person:
+    def __init__(self):
+        self.name = ""
+
+class student(person):
+    def __init__(self):
+        super().__init__() 
+        self.grade = ""
+    def display(self):
+        print(self.name)
+        print(self.grade)
+c = student()
+c.name = "sumesh"
+c.grade = "a+"
+c.display()
+
+#polimorphism overwrite
+class vehicle:
+   def start(self):
+      print("vehicle started")
+class car(vehicle):
+   def start(self):
+      print("car started")
+c=car()
+c.start()
+
+#polimorphism overwrite
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+class Manager(Employee):
+    def __init__(self, name, salary, department):
+        super().__init__(name, salary)  
+        self.department = department
+
+    def display(self):
+        print(f"Name: {self.name}, Salary: {self.salary}, Department: {self.department}")
+
+e = Manager(name="Sumesh", salary="12000", department="Production")
+e.display()
