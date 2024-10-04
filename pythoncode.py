@@ -500,3 +500,11 @@ x={
 print(x)
 y = json.dumps(x)
 print(y)
+
+#regular expression
+import re
+
+txt = "hello world"
+a = re.compile("hello world")
+ans = a.findall(txt)
+print(ans)
