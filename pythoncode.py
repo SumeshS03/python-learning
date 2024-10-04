@@ -478,3 +478,25 @@ c.add()
 c.sub()
 c.mul()
 c.div()
+
+#json
+import json
+a ='{"name":"sumesh", "age":"21"}'
+print(a)
+b=json.loads(a)
+print(b)
+print(type(b))
+
+#json
+import json
+x={
+    "name" : "sumesh",
+    "age" : 21,
+    "college" : True,
+    "work"    : False,
+    "skilla"  :("python","html"),
+    "exp"   : None,
+    }
+print(x)
+y = json.dumps(x)
+print(y)
