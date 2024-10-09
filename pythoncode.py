@@ -554,3 +554,22 @@ class Manager(Employee):
 
 e = Manager(name="Sumesh", salary="12000", department="Production")
 e.display()
+
+#leetcode problems
+#two sum
+class Solution:
+    def twoSum(self, nums: [int], target: int) -> List[int]:
+        seen = {}
+
+        for i, num in enumerate(nums):
+            complement = target - num
+
+            if complement in seen:
+                return(seen[complement],i)
+
+            seen[num] = i
+solution = Solution()
+nums = [2,5,7,4,6,1,8]
+target = 9
+print(solution.twoSum(nums,target))
+        
